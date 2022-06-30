@@ -1,22 +1,19 @@
 programa
 {//2. Faça um sistema que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.expressa em anos, meses e dias
 	
+
 	funcao inicio()
 	{
+		inteiro numero1, anos, meses, dias, resultado
 
+		escreva("Digite os dias: ")
+		leia(numero1)
 
-		real anos, meses, dias, Divisao
+		anos = numero1 /365
+		meses = numero1 %365 /30
+		dias = numero1 %365 %30
 
-		
-
-		escreva("Quantos dias voce tem? " )
-		leia(dias)
-
-	
-		Divisao = (dias / 30) / 12
-
-		escreva("Você tem ", Divisao)
-		escreva(" dias de vida")
+		escreva("Você possui " + anos + " anos," + meses + " meses e " + dias + " dias de idade.")
 	}
 }
 
@@ -49,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 820; 
+ * @POSICAO-CURSOR = 153; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
