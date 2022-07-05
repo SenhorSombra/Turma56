@@ -13,7 +13,8 @@ diagonal, ou seja, diagonal principal.*/
 		inteiro maior = 0
 		inteiro menor = 0
 
-		escreva("Digite os valores da Matriz: \n")
+	
+		4escreva("Digite os valores da Matriz: \n")
 		para(inteiro l=0;l<=2;l++){
 			para(inteiro c= 0;c<=2;c++){
 				leia(matriz[l][c])
@@ -41,7 +42,7 @@ diagonal, ou seja, diagonal principal.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 361; 
+ * @POSICAO-CURSOR = 365; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 10, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
